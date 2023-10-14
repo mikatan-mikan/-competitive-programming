@@ -1,0 +1,5 @@
+S = input()
+S = S.replace("0","tmp")
+S = S.replace("1","0")
+S = S.replace("tmp","1")
+print(S)
