@@ -1,0 +1,8 @@
+from sortedcontainers import SortedList
+
+#現在の得票数を管理(得票数,i番目の人)
+v = SortedList([1,41,231,123,1])
+
+v[0] = 200
+
+print(v)
